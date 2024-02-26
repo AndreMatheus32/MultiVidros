@@ -1,0 +1,84 @@
+
+section.main{
+    padding-bottom: 140px;
+    background-color: #3B457D;
+}
+.main > .container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.main h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+}
+.main .servicos-wrapper{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #3B457D;
+}
+.servicos-desktop{
+    position: relative;
+    top: -3px;
+}
+.servicos-desktop a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.servicos-desktop a:hover{
+    color: #3B457D;
+}
+.servicos-wrapper .servicos-single{
+    width: 30%;
+    text-align: center;
+}
+.servicos-single img{
+    width: 100%; 
+}
+.servicos-bottom{
+    position: relative;
+    top: -70px;
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.servicos-single .servicos-bottom h3{
+    padding: 15px 0;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(54, 53, 53);
+}
+.servicos-bottom p{
+    padding: 0 8px;
+    color: gray;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .main .servicos-wrapper{
+        display: block;
+    }
+    .main .servicos-single{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+
+}
